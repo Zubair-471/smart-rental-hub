@@ -78,9 +78,12 @@ Route::prefix('v1')->middleware('auth:sanctum')->group(function () {
 
 ## 📸 Screenshots *(Upload to GitHub repo)*
 
-* 🏠 Homepage showcasing device catalog
-* 📊 Admin dashboard with stats and quick actions
-* 📄 Device details with rental form
+![image](https://github.com/user-attachments/assets/f04f400b-623f-40bd-9075-2a217acec64a)
+
+![image](https://github.com/user-attachments/assets/872ba908-4083-4c8f-8c08-631678024cb7)
+
+![image](https://github.com/user-attachments/assets/c6a5fd45-7c7b-4b7d-8fad-65274b9891d5)
+
 
 ---
 
@@ -173,6 +176,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-```
 
-```
