@@ -76,7 +76,7 @@ Route::prefix('v1')->middleware('auth:sanctum')->group(function () {
 
 ---
 
-## 📸 Screenshots *(Upload to GitHub repo)*
+## 📸 Screenshots 
 
 ![image](https://github.com/user-attachments/assets/f04f400b-623f-40bd-9075-2a217acec64a)
 
