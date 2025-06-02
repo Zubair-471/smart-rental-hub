@@ -1,0 +1,45 @@
+/* Admin Dropdown Styles */
+.nav-item.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+}
+
+.dropdown-menu.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+/* Hover effect for dropdown items */
+.dropdown-item:hover {
+    background-color: #f8f9fa;
+    transition: background-color 0.2s ease;
+}
+
+/* Active state for dropdown items */
+.dropdown-item.active,
+.dropdown-item:active {
+    background-color: #0d6efd;
+    color: white;
+}
+
+/* Custom styling for dropdown toggle */
+.nav-link.dropdown-toggle {
+    cursor: pointer;
+}
+
+/* Dropdown arrow animation */
+.dropdown-toggle::after {
+    transition: transform 0.3s ease;
+}
+
+.show .dropdown-toggle::after {
+    transform: rotate(180deg);
+} 
